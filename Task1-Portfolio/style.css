@@ -1,0 +1,196 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+        background-color: rgb(0,0,38);
+        color: white; 
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(18, 28, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        nav ul li a:hover{
+            color: rgb(153,153,226);
+            font-size: 1.06rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 3rem;
+        }
+        .rightSection img{
+            width: 500px;
+            height: auto;  
+        }
+        .purple{
+           color:blueviolet; 
+        }
+        .text-grey{
+            color: gray;
+        }
+        #element{
+            color:blueviolet;
+        }
+        .segment{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .leftsegment{
+            margin: 0px 123px;
+
+        }
+        .rightsegment{
+            margin-left: auto;
+            margin-right: 123px;
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 60vh;
+        }
+        h1{
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 1.6rem;
+        }
+        .box{
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px; 
+        }
+        .img-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 80px;
+            width: 150px;
+        }
+        .Projectsection { 
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .Projectsection .vertical-title{
+            margin-top: -60px;
+        }
+        .vertical-title a:hover{
+            font-size: 1.06rem;
+            color: aquamarine;
+        }
+        .Resume{
+            max-width: 80vw;
+            margin: auto;
+            height:180vh ;
+        }
+        .myresume{
+            position: relative;
+            height: 160vh; 
+            overflow: hidden;
+        }
+        .myresume .object{
+            position: absolute;
+            height: 100%;
+        }
+        .contact{
+            max-width: 80vw;
+            margin: auto;
+        }
+        .contact .address{
+            max-width: 80vw;
+            margin: 30px 90px;
+        }
+        .location{
+            margin: 30px 120px;
+            color: rgb(93, 228, 93);
+        }
+        .Email{
+            margin: 30px;
+        }
+        .Email > a:hover{
+            color: rgb(22, 106, 242);
+            font-size: 1.06rem;
+        }
+        .phone{
+            margin: 30px;
+        }
+        footer{
+            padding: 40px 0;
+            background-color: black ;
+            height: 223px;
+        }
+        .social{
+            text-align: center;
+            padding-bottom: 25px;
+            color: white;
+        }
+        .port{
+           color:blueviolet; 
+        }
+        .social >a{
+            font-size: 24px;
+            color: inherit;
+            border: 1px solid #ccc;
+            width: 40px;
+            height:40px;
+            line-height: 38px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            margin: 20px 20px;
+            opacity: 0.75;
+        }
+        .foter .social a:hover{
+            color: aquamarine;
+            font-size: 1.09rem;
+        }
+        .copyright{
+            margin: 40px 570px;
+        }
