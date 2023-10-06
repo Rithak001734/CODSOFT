@@ -1,0 +1,256 @@
+:root{
+    --red:#E50914;
+    --black:#000000;
+    --light-color:#181818;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 20px;
+    z-index: 2; 
+    
+}
+section{
+    padding: 2rem 9%;
+}
+
+h2{
+    color: white;
+}
+.heading{
+    color: purple;
+    margin-bottom: 3rem;
+    font-size:4rem;
+}
+.btn{
+    margin-top:10px;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--red);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+.btn:hover{
+    background: grey;
+    color: var(--red);
+    letter-spacing: .1rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.logo span{
+    font-size: 25px;
+    color: #fff;
+    font-family: Aclonica;
+}
+.logo img {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153,153,226);
+    font-size: 1.09rem;
+}
+.search{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background:#fff ;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.search:hover input{
+    width: 400px;
+}
+.search input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.search a .fas{
+    color: #1daf;
+    font-size: 18px;
+}
+.home{
+    padding:0;
+}
+
+.home .box{
+    min-height: 100vh;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    justify-content:flex-end;
+    padding:2rem 9%;
+    
+}
+
+.home .box{
+    justify-content: flex-start;
+}
+
+.home .box.second{
+    justify-content: flex-end;
+}
+
+.home .box .content{
+    width:50rem;
+    margin-top: 20px;
+}
+
+.home .box .content h3{
+    font-size:4rem;
+    color: #fff;
+    padding-top: .5rem;
+    text-transform: uppercase;
+}
+
+.home .box .content p{
+    line-height: 2;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.anime{
+    padding:5rem;
+}
+.anime .swiper-slide{
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+.anime .box{
+    width: 299px;
+    height:168px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display: flex;
+    background-size: cover !important;
+    background-position: center !important;
+    
+}
+
+.anime .content h3{
+    margin: 5px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.anime .content a{
+    margin: 5px;
+}
+.genre .list {
+    margin: 20px 40px;
+}
+
+.genre .list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.genre .list ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left:30px ;
+}
+
+.genre .list ul li a {
+    text-decoration:none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    transition: background-color 0.3s ease;
+}
+.list:nth-child(1) li a {
+    color: rgb(236, 44, 10); 
+}
+
+.list:nth-child(2) li a {
+    color: rgb(39, 144, 214); 
+}
+
+.list:nth-child(3) li a {
+    color: green; 
+}
+.list:nth-child(4) li a {
+    color: rgb(246, 230, 9); 
+}
+.genre .list ul li a:hover {
+    background-color: #333;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.port{
+   color:blueviolet; 
+}
+.social >a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height:40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 20px 20px;
+    opacity: 0.75;
+}
+.foter .social a:hover{
+    color: aquamarine;
+    font-size: 1.09rem;
+}
+.copyright{
+    margin: 40px 370px;
+}
